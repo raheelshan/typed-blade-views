@@ -1,21 +1,27 @@
 {
-  "name": "raheelshan/typed-view",
-  "description": "Typed Blade views for Laravel",
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "RaheelShan\\TypedView\\": "src/"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "RaheelShan\\TypedView\\TypedViewServiceProvider"
-      ]
-    }
-  },
-  "require": {
-    "php": "^8.1",
-    "illuminate/view": "^10.0|^11.0"
-  }
+    "name": "raheelshan/typed-view",
+    "description": "Typed Blade views for Laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RaheelShan\\TypedView\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaheelShan\\TypedView\\TypedViewServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/view": "^10.0|^11.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/raheelshan/typed-blade-views"
+        }
+    ]
 }
